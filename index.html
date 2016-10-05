@@ -1,21 +1,21 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
-carpentry: "FIXME"    # what kind of Carpentry (must be either "dc" or "swc")
-venue: "FIXME"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
-country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "FIXME"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: "FIXME"      # contact email address for host, lead instructor, or whoever else is handling questions
-etherpad:             # optional: URL for the workshop Etherpad if there is one
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+carpentry: "swc"    # what kind of Carpentry (must be either "dc" or "swc")
+venue: "Scion Research"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "Sala Street, Rotorua, Bay Of Plenty 3010"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+country: "nz"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
+language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
+latlng: "-38.156106, 176.263526"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
+humandate: "Nov 24-25, 2016"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "9:30 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2016-11-24      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2016-11-25        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Martin Bader", "Aleksandra Pawlik"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Juliana Osorio-Jaramillo"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+contact: "training@nesi.org.nz"      # contact email address for host, lead instructor, or whoever else is handling questions
+etherpad: http://pad.software-carpentry.org/2016-11-24-scion      # optional: URL for the workshop Etherpad if there is one
+eventbrite: "28383785667" # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 <!-- See instructions in the comments below for how to edit specific sections of this workshop template. -->
@@ -47,10 +47,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template.  Use it to create your own website.
-Delete this line and please fill in 
-<a href="{{site.amy_site}}/submit">this self-organized workshop form</a>
-and the administrator will contact you if we need any extra information.</h4>
 
 <h2 id="general">General Information</h2>
 
@@ -181,23 +177,26 @@ and the administrator will contact you if we need any extra information.</h4>
   <div class="col-md-6">
     <h3>Day 1</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
-      <tr> <td>10:30</td> <td>Coffee</td> </tr>
+      <tr> <td>09:30</td>  <td>Welcome and setup help</td> </tr>
+      <tr> <td>09:45</td>  <td>Automating tasks with the Unix shell - part 1</td> </tr>
+      <tr> <td>10:30</td> <td>Break</td> </tr>
+      <tr> <td>11:00</td>  <td>Automating tasks with the Unix shell- part 2</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>13:00</td>  <td>Inroduction to data manipulation programming with R</td> </tr>
+      <tr> <td>15:00</td>  <td>Break</td> </tr>
+      <tr> <td>16:30</td>  <td>Wrap-up</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
-      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>09:30</td>  <td>Version control with Git</td> </tr>
+      <tr> <td>10:30</td>  <td>Break</td> </tr>
+      <tr> <td>11:00</td>  <td>Collaboration using Git and GitHub</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>13:00</td>  <td>Building programs with R</td> </tr>
+      <tr> <td>15:00</td>  <td>Break</td> </tr>
+      <tr> <td>16:30</td>  <td>Wrap-up</td> </tr>
     </table>
   </div>
 </div>
@@ -258,20 +257,7 @@ and the administrator will contact you if we need any extra information.</h4>
       <li><a href="{{site.swc_pages}}/shell-novice/reference/">Reference...</a></li>
     </ul>
   </div>
-  <div class="col-md-6">
-    <h3 id="syllabus-python">Programming in Python</h3>
-    <ul>
-      <li>Using libraries</li>
-      <li>Working with arrays</li>
-      <li>Reading and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
-      <li>Defensive programming</li>
-      <li>Using Python from the command line</li>
-      <li><a href="{{site.swc_pages}}/python-novice-inflammation/reference/">Reference...</a></li>
-    </ul>
-  </div>
-  <!--
+
   <div class="col-md-6">
     <h3 id="syllabus-r">Programming in R</h3>
     <ul>
@@ -283,7 +269,7 @@ and the administrator will contact you if we need any extra information.</h4>
       <li><a href="{{site.swc_pages}}/r-novice-inflammation/reference/">Reference...</a></li>
     </ul>
   </div>
-  -->
+
   <!--
   <div class="col-md-6">
     <h3 id="syllabus-matlab">Programming in MATLAB</h3>
@@ -314,20 +300,7 @@ and the administrator will contact you if we need any extra information.</h4>
       <li><a href="{{site.swc_pages}}/git-novice/reference/">Reference...</a></li>
     </ul>
   </div>
-  <div class="col-md-6">
-    <h3 id="syllabus-sql">Managing Data with SQL</h3>
-    <ul>
-      <li>Reading and sorting data</li>
-      <li>Filtering with <code>where</code></li>
-      <li>Calculating new values on the fly</li>
-      <li>Handling missing values</li>
-      <li>Combining values using aggregation</li>
-      <li>Combining information from multiple tables using <code>join</code></li>
-      <li>Creating, modifying, and deleting data</li>
-      <li>Programming with databases</li>
-      <li><a href="{{site.swc_pages}}/sql-novice-survey/reference/">Reference...</a></li>
-    </ul>
-  </div>
+
 </div>
 
 <hr/>
@@ -566,93 +539,7 @@ and the administrator will contact you if we need any extra information.</h4>
   </div>
 </div> <!-- End of 'editor' section. -->
 
-<div id="python"> <!-- Start of 'Python' section. Remove the third paragraph if
-           the workshop will teach Python using something other than
-           the IPython notebook.
-           Details at http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility -->
-  <h3>Python</h3>
 
-  <p>
-    <a href="http://python.org">Python</a> is a popular language for
-    scientific computing, and great for general-purpose programming as
-    well.  Installing all of its scientific packages individually can be
-    a bit difficult, so we recommend
-    <a href="https://www.continuum.io/anaconda">Anaconda</a>,
-    an all-in-one installer.
-  </p>
-
-    <p>
-      Regardless of how you choose to install it,
-      <strong>please make sure you install Python version 3.x</strong>
-      (e.g., 3.4 is fine).
-    </p>
-
-    <p>
-      We will teach Python using the IPython notebook, a programming environment
-      that runs in a web browser. For this to work you will need a reasonably
-      up-to-date browser. The current versions of the Chrome, Safari and
-      Firefox browsers are all
-      <a href="http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility">supported</a>
-      (some older browsers, including Internet Explorer version 9
-      and below, are not).
-    </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="python-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=xxQ0mzZ8UvA">Video Tutorial</a>
-      <ol>
-        <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
-        <li>Download the Python 3 installer for Windows.</li>
-        <li>Install Python 3 using all of the defaults for installation <em>except</em> make sure to check <strong>Make Anaconda the default Python</strong>.</li>
-      </ol>
-    </div>
-    <div class="col-md-4">
-      <h4 id="python-macosx">Mac OS X</h4>
-      <a href="https://www.youtube.com/watch?v=TcSAln46u9U">Video Tutorial</a>
-      <ol>
-        <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
-        <li>Download the Python 3 installer for OS X.</li>
-        <li>Install Python 3 using all of the defaults for installation.</li>
-      </ol>
-    </div>
-    <div class="col-md-4">
-      <h4 id="python-linux">Linux</h4>
-      <ol>
-        <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
-        <li>Download the Python 3 installer for Linux.</li>
-        <li>Install Python 3 using all of the defaults for installation.
-        (Installation requires using the shell. If you aren't
-        comfortable doing the installation yourself
-        stop here and request help at the workshop.)</li>
-        <li>
-          Open a terminal window.
-        </li>
-        <li>
-          Type <pre>bash Anaconda3-</pre> and then press
-          tab. The name of the file you just downloaded should
-          appear.
-        </li>
-        <li>
-          Press enter. You will follow the text-only prompts.  When
-          there is a colon at the bottom of the screen press the down
-          arrow to move down through the text. Type <code>yes</code> and
-          press enter to approve the license. Press enter to approve the
-          default location for the files. Type <code>yes</code> and
-          press enter to prepend Anaconda to your <code>PATH</code>
-          (this makes the Anaconda distribution the default Python).
-        </li>
-      </ol>
-    </div>
-  </div>
-<!--
-  <p>
-  Once you are done installing the software listed above,
-  please go to <a href="setup/index.html">this page</a>,
-  which has instructions on how to test that everything was installed correctly.
-  </p>
--->
-</div> <!-- End of 'Python' section. -->
 
 <div id="r"> <!-- Start of 'R' section. -->
   <h3>R</h3>
@@ -705,42 +592,7 @@ and the administrator will contact you if we need any extra information.</h4>
   </div>
 </div> <!-- End of 'R' section. -->
 
-<div id="sql"> <!-- Start of 'SQLite' section. -->
-  <h3>SQLite</h3>
 
-  <p>
-    SQL is a specialized programming language used with databases.  We
-    use a simple database manager called
-    <a href="http://www.sqlite.org/">SQLite</a> in our lessons.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="sql-windows">Windows</h4>
-      <p>
-        The <a href="{{site.swc_installer}}">Software Carpentry Windows Installer</a>
-        installs SQLite for Windows.
-        If you used the installer to configure nano, you don't need to run it again.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="sql-macosx">Mac OS X</h4>
-      <p>
-        SQLite comes pre-installed on Mac OS X.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="sql-linux">Linux</h4>
-      <p>
-        SQLite comes pre-installed on Linux.
-      </p>
-    </div>
-  </div>
-
-  <p><strong>If you installed Anaconda, it also has a copy of SQLite
-    <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
-    Instructors will provide a workaround for it if needed.</strong></p>
-</div> <!-- End of 'SQLite' section. -->
 
 <!--
   Uncomment this section if you are using our virtual machine.
